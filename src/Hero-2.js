@@ -37,6 +37,7 @@ const Hero_2 = ()=>{
                         <p>
                             With <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>, You the investors are in control of the liquidity. With our unique DAO controlled Liquidity Pool, you can sleep well knowing your funds are safe!
                         </p>
+                        <p>Along with that, any token with a tax can be traded on <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> with 0 trading fee!</p>
                         
                     </div>
                     <div className="intro-img">
