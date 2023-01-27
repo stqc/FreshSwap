@@ -20,7 +20,7 @@ const Hero = ()=>{
                             it has been rebuilt from the ground up to facilitate and tackle the fresher needs and issues of the DeFi world.</p>
                             <p>What this means is that <span style={{color:"#4E4E4E" ,fontWeight:"900"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></span> is not a fork of the existing DEX model, rather it takes inspiration from it where ever necessary, and then adds it's own freshness on top of it.</p>
                             <div className="app-btn" style={{marginBottom:"20%"}}>
-                                LAUNCHING SOON  
+                                LAUNCHING Q1 2023  
                              </div>
                         </div>
                         
