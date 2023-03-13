@@ -18,11 +18,9 @@ const Hero_2 = ()=>{
                         <p><span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> is all you need to add some Freshness to your project!
                         </p>
                         <p>
-                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in USDC which does not devalue the project in anyway shape or form as opposed to existing model.
+                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in BNB which does not devalue the project in anyway shape or form as opposed to existing model.
                         </p>
-                        <p>
-                            In addition to that, all projects are required to be paired with USDC as opposed to any other volatile crypto, which leads to stabilization in prices.
-                        </p>
+                       
                     </div>
                 </div>
             </div>
