@@ -8,7 +8,7 @@
 }
 
 body{
-  background: radial-gradient(100% 100% at 100% 0%, #FFD277 0%, #FFAB00 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background: radial-gradient(77.86% 117.98% at 74.24% 19.82%, #F9C04C 0%, #DD8500 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */; /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   background-repeat: no-repeat;
   background-size: cover;
 }

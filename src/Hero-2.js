@@ -7,7 +7,7 @@ import GLASS from "./glass.png";
 const Hero_2 = ()=>{
 
     return(
-        <div className="hero section" style={{backgroundColor:"black", color:"white"}}>
+        <div className="hero section" id="h" style={{backgroundColor:"black", color:"white"}}>
             <div style={{display:"flex"}}>
                 <div className="intro-img">
                             <img src={GLASS} style={{width:"15vw"}}/>
@@ -18,25 +18,20 @@ const Hero_2 = ()=>{
                         <p><span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> is all you need to add some Freshness to your project!
                         </p>
                         <p>
-                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in BNB which does not devalue the project in anyway shape or form as opposed to existing model.
+                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project's treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in $BNB, which does not devalue the project in any way as opposed to existing models.
                         </p>
                        
                     </div>
                 </div>
             </div>
             <div className="tag-line" style={{marginTop:"10%"}}>
-                Why <span style={{color:"#F9C04C" ,fontWeight:"900", textAlign:"left"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> For Investors?
+                Why Use <span style={{color:"#F9C04C" ,fontWeight:"900", textAlign:"left"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> As Your DEX?
             </div>
             <div style={{display:"flex"}}>
                     
                     <div className="intro-content" style={{marginTop:"2%"}}>
-                        <p><span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> is your fresher and safer DeFi companion!
+                        <p><span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>  is the fresher and safer DeFi companion! With FreshSwap, investors are in control of the liquidity for any project that they have tokens of. With our unique DAO controlled liquidity Pool, users will be able vote on pulling the liquidity. This is a default option for all projects listed with us. Any token with a tax can be traded on FreshSwap without trading fees as well!
                         </p>
-                        <p>
-                            With <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>, You the investors are in control of the liquidity. With our unique DAO controlled Liquidity Pool, you can sleep well knowing your funds are safe!
-                        </p>
-                        <p>Along with that, any token with a tax can be traded on <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> with 0 trading fee!</p>
-                        
                     </div>
                     <div className="intro-img">
                             <img src={SAFE} style={{width:"15vw"}}/>
@@ -52,11 +47,9 @@ const Hero_2 = ()=>{
                         Earn Passively With <span style={{color:"#F9C04C" ,fontWeight:"900", textAlign:"left"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>.
                     </div>
                     <div className="intro-content" style={{marginTop:"2%"}}>
-                            <p>With <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>'s solid referral program you can get rich without lifting a finger!
+                            <p>With <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span>'s referral program, anyone can earn extra passive income when they refer a project they know on FreshSwap. We offer a generous 10% on all transaction fees from the referred project to the referrer for one whole month!
                             </p>
-                            <p>
-                                <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> promotes anyone and everyone to refer projects to launch on our platform and as a reward you earn 10% of all the fees generated from that pool for the next month!
-                            </p>
+                           
                             
                     </div>
                 </div>  
