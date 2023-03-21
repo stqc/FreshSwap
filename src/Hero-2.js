@@ -18,7 +18,7 @@ const Hero_2 = ()=>{
                         <p><span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> is all you need to add some Freshness to your project!
                         </p>
                         <p>
-                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project's treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in $BNB, which does not devalue the project in any way as opposed to existing models.
+                        <span style={{color:"#F9C04C" ,fontWeight:"900"}}>Fresh<span style={{color:"#91E564"}}>Swap</span></span> allows you to grow your project's treasury regardless of whether you have a taxed or a non-taxed token, as all the taxes and fees are collected before or after the swap in $BNB/$ETH, which does not devalue the project in any way as opposed to existing models.
                         </p>
                        
                     </div>
@@ -53,6 +53,18 @@ const Hero_2 = ()=>{
                             
                     </div>
                 </div>  
+            </div>
+            <div style={{display:"flex", flexDirection:"column", marginTop:"9%", borderTop:"2px solid #828282",borderBottom:"2px solid #828282", width:"100%"}}>
+                <div className="disclaimer" style={{marginTop:"1%", fontWeight:"1000"}}>
+                    Disclaimer
+                </div>
+                <div className="disclaimer-content" style={{marginTop:"1%", fontWeight:"100"}}>            
+                The Information on this website, and other official FreshSwap channels such as Discord, Twitter, and Telegram, is provided for education and informational purposes only, without any express or implied warranty of any kind, including warranties of accuracy, completeness, or fitness for any particular purpose. They are not intended to be and does not constitute financial advice, investment advice, trading advice or any other advice. All Information is general in nature and is not specific to you the User or anyone else. 
+                </div>
+                <div className="links-footer" style={{marginTop:"2%", fontWeight:"1000", marginBottom:"2%"}}>
+                    <a href="https://docs.freshswap.app" target="_blank">Documentation</a> | <a href="https://discord.com/invite/Nm99mrsjHA" target="_blank">Discord</a> | <a href="https://twitter.com/freshswap_" target="_blank">Twitter</a> | <a href="https://t.me/freshswap" target="_blank">Telegram</a>
+                </div>
+                
             </div>
         </div>
     )

@@ -10,6 +10,7 @@ const Hero = ()=>{
 
     return(
         <div className="hero section">
+            
             <div style={{display:"flex"}}>
                 <div>
                     <h1 style={{color:"#4E4E4E" , alignSelf:"flex-start", fontSize:"2.7em",fontWeight:"900", textAlign:"left"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></h1>
@@ -19,7 +20,7 @@ const Hero = ()=>{
                     
                         <div className="intro-content">
                             
-                            <p><span style={{color:"#4E4E4E" ,fontWeight:"900"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></span>  is a fresh take on the existing DEX model. It has been rebuilt from the ground up to address issues existing in current decentralized exchange models, while future proofing elements that will last in DeFi.</p>
+                            <p><span style={{color:"#4E4E4E" ,fontWeight:"900"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></span>  is a fresh take on the existing DEX model. It has been rebuilt from the ground up to address issues existing in current decentralized exchange models, while future proofing elements that will last in DeFi.<br/><br/>LAUNCHING SOON!</p>
                             {/* <div className="app-btn" style={{marginBottom:"5%"}}>
                                 LAUNCHING SOON  
                              </div> */}
