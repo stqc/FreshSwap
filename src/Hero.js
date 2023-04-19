@@ -20,14 +20,19 @@ const Hero = ()=>{
                     
                         <div className="intro-content">
                             
-                            <p><span style={{color:"#4E4E4E" ,fontWeight:"900"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></span>  is a fresh take on the existing DEX model. It has been rebuilt from the ground up to address issues existing in current decentralized exchange models, while future proofing elements that will last in DeFi.<br/><br/>LAUNCHING SOON!</p>
+                            <p><span style={{color:"#4E4E4E" ,fontWeight:"900"}}>Fresh<span style={{color:"#F9F991"}}>Swap</span></span>  is a fresh take on the existing DEX model. It has been rebuilt from the ground up to address issues existing in current decentralized exchange models, while future proofing elements that will last in DeFi.<br/><br/>Live on BSC and Arbitrum!</p>
                             {/* <div className="app-btn" style={{marginBottom:"5%"}}>
                                 LAUNCHING SOON  
                              </div> */}
                              <div className="app-btn"  onClick={()=>{
-                                window.open("https://docs.freshswap.app");
+                                window.open("https://bsc.freshswap.app");
                              }}>
-                                READ THE DOCS 
+                                Binance Smart Chain
+                             </div>
+                             <div className="app-btn" style={{marginTop:"2%"}} onClick={()=>{
+                                window.open("https://arbitrum.freshswap.app");
+                             }}>
+                                Arbitrum
                              </div>
                              <div className="social">
                              <div style={{ height:"match-parent", padding:"2%"}}>
